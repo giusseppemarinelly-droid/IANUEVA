@@ -1,0 +1,11 @@
+# Streamlit envia estadisticas de uso a un servidor externo por defecto. Este
+# proyecto se define por correr sin servicios de terceros en tiempo de ejecucion,
+# asi que la telemetria se desactiva explicitamente.
+[browser]
+gatherUsageStats = false
+
+# Solo escucha en la maquina local: la interfaz es para demostrar el agente, no
+# para exponerlo en la red.
+[server]
+address = "localhost"
+headless = true

@@ -1,0 +1,8 @@
+# Entorno virtual: se reconstruye con `python3 -m venv venv` + requirements.txt
+venv/
+
+# Cache de Python
+__pycache__/
+*.py[cod]
+
+# El modelo no se versiona: se descarga con `ollama pull qwen2.5:3b`

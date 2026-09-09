@@ -1,0 +1,7 @@
+# Dependencias directas del proyecto. El resto de lo que aparece en `pip freeze`
+# son dependencias transitivas de estas dos.
+#
+# No se incluye el modelo: qwen2.5:3b se descarga aparte con `ollama pull qwen2.5:3b`
+# y corre local, sin API key ni llamadas a servicios de terceros.
+requests==2.34.2
+streamlit==1.61.1
